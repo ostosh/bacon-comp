@@ -1,0 +1,57 @@
+[submodule "bacon"]
+	path = bacon
+	url = git@git.brightsign.biz:bacon
+[submodule "fsMetadata"]
+	path = fsMetadata
+	url = git@git.brightsign.biz:fsMetadata
+[submodule "bacon-theme"]
+	path = bacon-theme
+	url = git@git.brightsign.biz:bacon-theme
+[submodule "ba-uw-dm"]
+	path = ba-uw-dm
+	url = git@git.brightsign.biz:ba-uw-dm
+[submodule "ba-schedule"]
+	path = ba-schedule
+	url = git@git.brightsign.biz:ba-schedule
+[submodule "bsn-ui-v2-ns"]
+	path = bsn-ui-v2-ns
+	url = git@git.brightsign.biz:bsn-ui-v2-ns
+[submodule "bsnConnector"]
+	path = bsnConnector
+	url = git@git.brightsign.biz:bsnConnector
+[submodule "bpfImporter"]
+	path = bpfImporter
+	url = git@git.brightsign.biz:bpfImporter
+[submodule "bsPublisher"]
+	path = bsPublisher
+	url = git@git.brightsign.biz:bsPublisher
+[submodule "bsDeviceSetup"]
+	path = bsDeviceSetup
+	url = git@git.brightsign.biz:bsDeviceSetup
+[submodule "bs-playlist-dm"]
+	path = bs-playlist-dm
+	url = git@git.brightsign.biz:bs-playlist-dm
+[submodule "fsConnector"]
+	path = fsConnector
+	url = git@git.brightsign.biz:fsConnector
+[submodule "bs-content-manager"]
+	path = bs-content-manager
+	url = git@git.brightsign.biz:bs-content-manager
+[submodule "bsDataModel"]
+	path = bsDataModel
+	url = git@git.brightsign.biz:bsDataModel
+[submodule "ba-uw-manager"]
+	path = ba-uw-manager
+	url = git@git.brightsign.biz:ba-uw-manager
+[submodule "baconCore"]
+	path = baconCore
+	url = git@git.brightsign.biz:baconCore
+[submodule "bs-widgets"]
+	path = bs-widgets
+	url = git@git.brightsign.biz:bs-widgets
+[submodule "bsCore"]
+	path = bsCore
+	url = git@git.brightsign.biz:bsCore
+[submodule "bs-device-artifacts"]
+	path = bs-device-artifacts
+	url = git@git.brightsign.biz:bs-device-artifacts
