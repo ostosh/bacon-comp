@@ -21,7 +21,7 @@
 * Initial add: git submodule add <url> <path>
 * Initial container clone: git clone --recursive <url> [<path>]
 
-### Grabbing updates inside a submodule
+### Grabbing updates/change branch from a submodule
 1. cd path/to/submodule
 2. git fetch
 3. git checkout -q <commit-sha1>
@@ -33,7 +33,7 @@
 2. git submodule sync --recursive
 3. git submodule update --init --recursive
 
-### Updating a submodule inside container code
+### Pushing updates to a submodule
 1. git submodule update --remote --rebase -- path/to/module
 2. cd path/to/submodule
 3. local work, testing, eventually staging
