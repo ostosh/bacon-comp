@@ -1,0 +1,38 @@
+{
+  "name": "bacon-comp",
+  "version": "1.0.0",
+  "description": "BrightAuthor Connected composite development project",
+  "main": "null",
+  "scripts": {
+    "clean-comp": "rm -r ./node_modules | rm package-lock.json | bulk -c \"rm -r ./node_modules\" ./* | bulk -c \"rm package-lock.json\" ./*",
+    "install-comp": "npm install | bulk -c \"npm install\" ./*",
+    "link-comp": "lnkr -r",
+    "setup-comp": "npm run clean-comp && npm run install-comp && npm run link-comp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@brightsign/ba-schedule": "file://./ba-schedule",
+    "@brightsign/ba-uw-dm": "file://./ba-uw-dm",
+    "@brightsign/ba-uw-manager": "file://./ba-uw-manager",
+    "@brightsign/bacon": "file://./bacon",
+    "@brightsign/bacon-theme": "file://./bacon-theme",
+    "@brightsign/baconcore": "file://./baconCore",
+    "@brightsign/bpfimporter": "file://./bpfImporter",
+    "@brightsign/bs-content-manager": "file://./bs-content-manager",
+    "@brightsign/bs-device-artifacts": "file://./bs-device-artifacts",
+    "@brightsign/bs-playlist-dm": "file://./bs-playlist-dm",
+    "@brightsign/bs-widgets": "file://./bs-widgets",
+    "@brightsign/bscore": "file://./bsCore",
+    "@brightsign/bsdatamodel": "file://./bsDataModel",
+    "@brightsign/bsdevicesetup": "file://./bsDeviceSetup",
+    "@brightsign/bsn-ui": "file://./bsn-ui-v2-ns",
+    "@brightsign/bsnconnector": "file://./bsnConnector",
+    "@brightsign/bspublisher": "file://./bsPublisher",
+    "@brightsign/fsconnector": "file://./fsConnector",
+    "@brightsign/fsmetadata": "file://./fsMetaData"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
