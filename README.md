@@ -12,7 +12,7 @@
 3. cd path/to/submodule
 4. execute any custom configurations/build steps for each submodule
 
-### config
+### Git Configuration
 * git config --global diff.submodule log (so you get clearer container diffs when referenced submodule commits changed)
 * git config --global fetch.recurseSubmodules on-demand (so you are confident new referenced commits for known submodules get fetched with container updates)
 * git config --global status.submoduleSummary true (so git status gets useful again when a referenced submodule commit changed)
