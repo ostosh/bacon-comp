@@ -1,7 +1,7 @@
 # bacon-comp
 
 ## Requirements
-* [node/npm] (https://nodejs.org/en/)
+* [node/npm](https://nodejs.org/en/)
 * [npm-lnker](https://github.com/ostosh/npm-lnkr)
 * [bulk](https://github.com/timoxley/bulk)
 
@@ -45,7 +45,7 @@
 1. git submodule update --remote --rebase -- path/to/module
 2. cd path/to/submodule
 3. local work, testing, eventually staging
-4. git commit -am “Update to central submodule: blah blah”. WARNING: if commiting to local head, checking out remote branch after this step will wipe locally committed (unpushed) changes. It is recommended that you instead work from a local branch when making changes to submodules
+4. git commit -am “Update to central submodule: blah blah”. WARNING: if committing to local head, checking out remote branch after this step will wipe locally committed (unpushed) changes. It is recommended that you instead work from a local branch when making changes to submodules
 5. git push
 6. cd -
 7. git commit -am “Updated submodule X to: blah blah”
