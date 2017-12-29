@@ -6,11 +6,12 @@
 
 ## How To Notes
 
-###
+### Install
 1. clone bacon-comp
-2. npm run setup-comp
-3. cd path/to/submodule
-4. execute any custom configurations/build steps for each submodule
+2. npm run init-comp
+3. npm run setup-comp
+4. cd path/to/submodule
+5. execute any custom configurations/build steps for each submodule
 
 ### Git Configuration
 * git config --global diff.submodule log (so you get clearer container diffs when referenced submodule commits changed)

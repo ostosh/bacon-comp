@@ -4,6 +4,7 @@
   "description": "BrightAuthor Connected composite development project",
   "main": "null",
   "scripts": {
+    "init-comp": "git submodule sync --recursive && git submodule update --init --recursive",
     "clean-comp": "rm -r ./node_modules | rm package-lock.json | bulk -c \"rm -r ./node_modules\" ./* | bulk -c \"rm package-lock.json\" ./*",
     "install-comp": "npm install | bulk -c \"npm install\" ./*",
     "link-comp": "lnkr -r",
