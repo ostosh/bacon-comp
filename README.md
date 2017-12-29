@@ -1,17 +1,20 @@
 # bacon-comp
 
 ## Requirements
+* [node/npm] (https://nodejs.org/en/)
 * [npm-lnker](https://github.com/ostosh/npm-lnkr)
 * [bulk](https://github.com/timoxley/bulk)
 
 ## How To Notes
 
 ### Install
-1. clone bacon-comp
-2. npm run init-comp
-3. npm run setup-comp
-4. cd path/to/submodule
-5. execute any custom configurations/build steps for each submodule
+1. install node/npm
+2. clone bacon-comp
+3. npm install -g npm-lnkr bulk
+4. npm run init-comp
+5. npm run setup-comp
+6. cd path/to/submodule
+7. execute any custom configurations/build steps for each submodule
 
 ### Git Configuration
 * git config --global diff.submodule log (so you get clearer container diffs when referenced submodule commits changed)
@@ -23,9 +26,8 @@
 2. git submodule sync --recursive
 3. git submodule update --init --recursive
 
-### Adding or cloning
+### Adding a submodule
 * Initial add: git submodule add <url> <path>
-* Initial container clone: git clone --recursive <url> [<path>]
 
 ### Permanently removing a submodule
 1. git submodule deinit path/to/submodule
@@ -43,7 +45,7 @@
 1. git submodule update --remote --rebase -- path/to/module
 2. cd path/to/submodule
 3. local work, testing, eventually staging
-4. git commit -am “Update to central submodule: blah blah”
+4. git commit -am “Update to central submodule: blah blah”. WARNING: if commiting to local head, checking out remote branch after this step will wipe locally committed (unpushed) changes. It is recommended that you instead work from a local branch when making changes to submodules
 5. git push
 6. cd -
 7. git commit -am “Updated submodule X to: blah blah”
