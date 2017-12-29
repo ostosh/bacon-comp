@@ -5,8 +5,8 @@
   "main": "null",
   "scripts": {
     "init-comp": "git submodule sync --recursive && git submodule update --init --recursive",
-    "clean-comp": "rm -r ./node_modules | rm package-lock.json | bulk -c \"rm -r ./node_modules\" ./* | bulk -c \"rm package-lock.json\" ./*",
-    "install-comp": "npm install | bulk -c \"npm install\" ./*",
+    "clean-comp": "bulk -c \"rm -r ./node_modules\" ./* && bulk -c \"rm ./package-lock.json\" ./*",
+    "install-comp": "bulk -c \"npm install\" . | bulk -c \"npm install\" ./*",
     "link-comp": "lnkr -r",
     "setup-comp": "npm run clean-comp && npm run install-comp && npm run link-comp"
   },
