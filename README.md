@@ -27,7 +27,7 @@
 3. git submodule update --init --recursive
 
 ### Adding a submodule
-* Initial add: git submodule add <url> <path>
+* Initial add: git submodule add [url] [path]
 
 ### Permanently removing a submodule
 1. git submodule deinit path/to/submodule
@@ -37,9 +37,10 @@
 ### Grabbing updates/change branch from a submodule
 1. cd path/to/submodule
 2. git fetch
-3. git checkout -q <commit-sha1>
+3. git checkout -q [commit-sha1]
 4. cd -
 5. git commit -am “Updated submodule X to: blah blah”
+6. git checkout [branch]
 
 ### Pushing updates to a submodule
 1. git submodule update --remote --rebase -- path/to/module
