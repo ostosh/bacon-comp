@@ -55,3 +55,9 @@
 [submodule "bs-device-artifacts"]
 	path = bs-device-artifacts
 	url = git@git.brightsign.biz:bs-device-artifacts
+[submodule "/Users/tedshaffer/Documents/bacon-comp/ba-context-model"]
+	path = /Users/tedshaffer/Documents/bacon-comp/ba-context-model
+	url = git@git.brightsign.biz:ba-context-model
+[submodule "/Users/tedshaffer/Documents/bacon-comp/bsAutoplayGenerator"]
+	path = /Users/tedshaffer/Documents/bacon-comp/bsAutoplayGenerator
+	url = git@git.brightsign.biz:bsAutoplayGenerator

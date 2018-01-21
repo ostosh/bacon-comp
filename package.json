@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@brightsign/ba-context-model": "file:./ba-context-model",
+    "@brightsign/bsAutoplayGenerator": "file:./bsAutoplayGenerator",
     "@brightsign/ba-schedule": "file:./ba-schedule",
     "@brightsign/ba-uw-dm": "file:./ba-uw-dm",
     "@brightsign/ba-uw-manager": "file:./ba-uw-manager",
