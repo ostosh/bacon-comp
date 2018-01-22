@@ -27,7 +27,7 @@
 3. git submodule update --init --recursive
 
 ### Adding a submodule
-1. git submodule add [url] [path]
+1. git submodule add [repo url]
 
 ### Permanently removing a submodule
 1. git submodule deinit path/to/submodule
